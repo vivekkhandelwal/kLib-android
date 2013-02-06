@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <declare-styleable name="BorderFrameLayout">
+       <attr name="leftBorderWidth" format="dimension" />
+       <attr name="leftBorderColor" format="color" />
+       <attr name="topBorderWidth" format="dimension" />
+       <attr name="topBorderColor" format="color" />
+       <attr name="rightBorderWidth" format="dimension" />
+       <attr name="rightBorderColor" format="color" />
+       <attr name="bottomBorderWidth" format="dimension" />
+       <attr name="bottomBorderColor" format="color" />
+   </declare-styleable>
+    
+</resources>

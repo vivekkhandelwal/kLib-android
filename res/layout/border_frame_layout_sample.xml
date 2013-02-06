@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.khandelwal.library"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.khandelwal.library.view.BorderFrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:leftBorderColor="#00F0F0"
+        app:leftBorderWidth="10dp"
+        app:topBorderColor="#F0F000"
+        app:topBorderWidth="15dp"
+        app:rightBorderColor="#F000F0"
+        app:rightBorderWidth="20dp"
+        app:bottomBorderColor="#000000"
+        app:bottomBorderWidth="25dp" >
+    </com.khandelwal.library.view.BorderFrameLayout>
+
+</LinearLayout>
