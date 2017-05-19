@@ -41,6 +41,7 @@ public class BorderFrameLayout extends FrameLayout {
 			width = (int) a.getDimension(R.styleable.BorderFrameLayout_bottomBorderWidth, 0);
 			color = a.getColor(R.styleable.BorderFrameLayout_bottomBorderColor, Color.BLACK);
 			borderDrawable.setBottomBorder(width, color);
+			a.recycle();
 		}
 		
 		if(getBackground() != null)
